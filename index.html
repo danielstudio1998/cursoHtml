@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+
+	<table style="width: 500px;">
+		<thead>
+			<tr>
+				<th>Producto</th> <!-- th columnas -->
+				<th>Precio</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Hola Beats</td>
+				<td>Gratis</td>
+			</tr>
+			<tr>
+				<td>Chanchito feliz</td>
+				<td>29,90$</td>
+			</tr>
+			<tr>
+				<td>Cahnchito feliz muy feliz</td>
+				<td>29$</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<td></td>
+			<td>Total: 49,80$</td>
+		</tfoot>
+	</table>
+
+	<ul>
+		<li>elemento 1</li>
+		<li>elemento 2</li>
+		<li>elemento 3</li>
+		<li>elemento 4</li>
+	</ul>
+	<ol>
+		<li>elemento 1</li>
+		<li>elemento 2</li>
+		<li>elemento 3</li>
+		<li>elemento 4</li>
+	</ol>
+
+
+
+    <h1>Mi primer heading</h1>
+	<hr>
+	<h2>Mi segundo heading</h2>
+	<p>Chanchito feliz</p>
+	<a target="_blank" href="https://www.google.es">Ir a Google</a>
+	<img src="img/coffee.png" width="400">
+	
+	<!-- Formularios -->
+	<form action="/formulario" method="get"> <!-- GET= enviar los datos en la URL, POST= Envia los datos en las cabeceras en lugar de la url-->
+		<label for="nombre">Nombre</label>
+		<input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre"/>
+		<br>
+		<label for="apellido">Apellido</label>
+		<input type="text" id="apellido" name="apellido" placeholder="Pon tu apellido"></input>
+		<br>
+		<label for="comentario">Comentario</label>
+		<br>
+		<textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"></textarea>
+		<br>
+		<button type="button">Enviar</button>
+	</form>
+</body>
+</html>
